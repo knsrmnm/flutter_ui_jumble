@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_jumble/screens/ripple_animation/ripple_animation.dart';
+import 'package:flutter_ui_jumble/screens/success_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: RipplesAnimation()
+      home: SuccessScreen()
     );
   }
 }
