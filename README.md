@@ -1,16 +1,13 @@
+
 # flutter_ui_jumble
+This repository is a collection of commonly used UIs for mobile applications.
 
-A new Flutter project.
+## Screens it contains
+👉 Sign In screen<br>
+👉 Touch Id screen<br>
+👉 Success screen<br>
+and more...
 
-## Getting Started
+<br>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="150" alt="screen1" src="assets/screenshots/signin.png">     <img width="150" alt="screen2" src="assets/screenshots/touchid.png">     <img width="150" alt="screen3" src="assets/screenshots/success.png">     <img width="150" alt="screen4" src="assets/screenshots/payment.png">
