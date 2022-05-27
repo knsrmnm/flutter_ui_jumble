@@ -10,7 +10,6 @@ class SimpleWeatherScreen extends StatefulWidget {
 class _SimpleWeatherScreenState extends State<SimpleWeatherScreen> {
 
   final Color _accentColor     = Color(0xFF272727);
-  final Color _containerColor  = Color(0xFFF0F2F5);
 
   @override
   Widget build(BuildContext context) {
