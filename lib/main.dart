@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_jumble/screens/today_task_screen.dart';
+import 'package:flutter_ui_jumble/screens/simple_weather_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TodayTaskScreen()
+      home: SimpleWeatherScreen()
     );
   }
 }
