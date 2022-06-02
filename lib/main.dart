@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_jumble/screens/storage_screen.dart';
+import 'package:flutter_ui_jumble/screens/travel_spot_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: StorageScreen()
+      home: TravelSpotScreen()
     );
   }
 }
