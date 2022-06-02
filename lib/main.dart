@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_jumble/screens/search_bottom_sheet.dart';
-import 'package:flutter_ui_jumble/screens/task_management_screen.dart';
+import 'package:flutter_ui_jumble/screens/storage_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: TaskManagementScreen()
+      home: StorageScreen()
     );
   }
 }
