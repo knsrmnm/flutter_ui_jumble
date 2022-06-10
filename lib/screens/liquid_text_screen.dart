@@ -12,13 +12,13 @@ class _LiquidTextScreenState extends State<LiquidTextScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blueAccent,
       body: SafeArea(
         child: Center(
           child: TextLiquidFill(
             text: 'Loading...',
-            waveColor: Colors.blueAccent,
-            boxBackgroundColor: Colors.white,
+            waveColor: Colors.white,
+            boxBackgroundColor: Colors.blueAccent,
             textStyle: TextStyle(
               fontSize: 50.0,
               fontWeight: FontWeight.bold,
