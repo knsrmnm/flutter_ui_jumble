@@ -26,12 +26,12 @@ class _DrawerScreenState extends State<DrawerScreen> {
         child: SizedBox(
           width: 250,
           child: Drawer(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Padding(
-                  padding: EdgeInsets.only(top: 80.0, left: 15.0),
-                  child: Row(
+            child: Padding(
+              padding: EdgeInsets.symmetric(vertical: 80.0, horizontal: 20.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
                     children: [
                       Container(
                         width: 45.0,
@@ -46,16 +46,55 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('ken minami', style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.white)),
+                          Text('Mike Trout', style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, color: Colors.white)),
                           const SizedBox(height: 5.0),
                           Text('@accountid', style: TextStyle(fontSize: 13.0, fontWeight: FontWeight.w400, color: Colors.grey[400])),
                         ],
-                      )
+                      ),
                     ],
                   ),
-                ),
-                const SizedBox(height: 30.0),
-              ],
+                  const SizedBox(height: 50.0),
+                  Row(
+                    children: [
+                      Icon(Icons.search, color: Colors.white),
+                      const SizedBox(width: 15.0),
+                      Text('Search', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: Colors.white))
+                    ],
+                  ),
+                  const SizedBox(height: 30.0),
+                  Row(
+                    children: [
+                      Icon(Icons.notifications_none, color: Colors.white),
+                      const SizedBox(width: 15.0),
+                      Text('Notification', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: Colors.white))
+                    ],
+                  ),
+                  const SizedBox(height: 30.0),
+                  Row(
+                    children: [
+                      Icon(Icons.mail_outline, color: Colors.white),
+                      const SizedBox(width: 15.0),
+                      Text('Message', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: Colors.white))
+                    ],
+                  ),
+                  const SizedBox(height: 30.0),
+                  Row(
+                    children: [
+                      Icon(Icons.bookmark_border, color: Colors.white),
+                      const SizedBox(width: 15.0),
+                      Text('Bookmark', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: Colors.white))
+                    ],
+                  ),
+                  const SizedBox(height: 30.0),
+                  Row(
+                    children: [
+                      Icon(Icons.person_outline, color: Colors.white),
+                      const SizedBox(width: 15.0),
+                      Text('Profile', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: Colors.white))
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ),

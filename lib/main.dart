@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_jumble/screens/drawer_screen.dart';
-import 'package:flutter_ui_jumble/screens/liquid_text_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LiquidTextScreen()
+      home: DrawerScreen()
     );
   }
 }
