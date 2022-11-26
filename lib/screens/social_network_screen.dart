@@ -48,30 +48,54 @@ class _SocialNetworkScreenState extends State<SocialNetworkScreen> {
       ),
       body: SafeArea(
         child: SingleChildScrollView(
-          child: Column(
-            children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Image.asset("assets/icons/accept.png", width: 30.0,),
-                  const SizedBox(width: 20.0),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("aaaaaa"),
-                      Text("bbbbbbbbb"),
-                      Text("bbbbbbbbb"),
-                      Text("bbbbbbbbb"),
-                      Text("bbbbbbbbb"),
-                      Text("bbbbbbbbb"),
-                    ],
-                  )
-                ],
-              )
-            ],
-          ),
+          child: Padding(
+            padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      width: 50,
+                      height: 50,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(50)),
+                        border: Border.all(color: Colors.black, width: 5),
+                        color: Colors.white,
+                      ),
+                      child: Center(
+                        child: Image.asset("assets/icons/user.png", width: 35),
+                      )
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 20.0),
+                _makeTweet(),
+              ],
+            ),
+          )
         ),
       ),
+    );
+  }
+
+  Widget _makeTweet() {
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Image.asset("assets/icons/accept.png", width: 30.0,),
+        const SizedBox(width: 20.0),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text("aaaaaa"),
+            Text("bbbbbbbbb"),
+            Text("bbbbbbbbb"),
+            Text("bbbbbbbbb"),
+            Text("bbbbbbbbb"),
+            Text("bbbbbbbbb"),
+          ],
+        )
+      ],
     );
   }
 }
