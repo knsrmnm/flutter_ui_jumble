@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_jumble/screens/social_network_screen.dart';
 import 'package:flutter_ui_jumble/screens/story_screen.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: StoryScreen()
+      home: SocialNetworkScreen()
     );
   }
 }
